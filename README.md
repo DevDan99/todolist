@@ -1,75 +1,61 @@
 # 📌 To-Do List API com Java e Spring Boot
 
-📖 Descrição
+## 📖 Descrição
 
 Este projeto é uma API REST para gerenciamento de tarefas (To-Do List), desenvolvida com Java e Spring Boot. Inclui funcionalidades de autenticação, validação de dados e persistência com banco de dados H2. O deploy foi realizado utilizando Docker e Render.com.
 
 🚀 Tecnologias Utilizadas
 
-Java 17
+* Java 17
 
-Spring Boot
+* Spring Boot
 
-Spring Security (JWT)
+* Spring Security (JWT)
 
-Banco de Dados H2 (nuvem)
+* Banco de Dados H2 (nuvem)
 
-Docker
+* Docker
 
-Render.com
+* Render.com
 
-🌐 Demonstração
+## 🌐 Demonstração
 
-API em Produção: [Adicione o link da API]
+* API em Produção: [Adicione o link da API]
 
-Coleção do Postman: [Adicione o link]
+* Coleção do Postman: [Adicione o link]
 
-🛠 Como Rodar o Projeto Localmente
+## 🛠 Como Rodar o Projeto Localmente
 
-Clone o repositório:
+1. Clone o repositório:
 
 git clone https://github.com/seu-usuario/nome-do-repositorio.git
 
-Acesse a pasta do projeto:
+2. Acesse a pasta do projeto:
 
 cd nome-do-repositorio
 
-Instale as dependências:
+3. Instale as dependências:
 
 mvn clean install
 
-Execute o projeto:
+4. Execute o projeto:
 
 mvn spring-boot:run
 
-Acesse a API via http://localhost:8080
+5. Acesse a API via http://localhost:8080
 
-🔗 Rotas da API
+## 🔗 Rotas da API
 
-POST /auth/login → Autenticação com JWT
+* POST /auth/login → Autenticação com JWT
 
-GET /tasks → Lista todas as tarefas
+* GET /tasks → Lista todas as tarefas
 
-POST /tasks → Cria uma nova tarefa
+* POST /tasks → Cria uma nova tarefa
 
-PUT /tasks/{id} → Atualiza uma tarefa
+* PUT /tasks/{id} → Atualiza uma tarefa
 
-DELETE /tasks/{id} → Exclui uma tarefa
+* DELETE /tasks/{id} → Exclui uma tarefa
 
-🤝 Contribuição
-
-Contribuições são bem-vindas! Siga os passos:
-
-Fork o repositório
-
-Crie uma branch (git checkout -b feature/nova-feature)
-
-Commit suas alterações (git commit -m 'Adiciona nova funcionalidade')
-
-Envie para o repositório remoto (git push origin feature/nova-feature)
-
-Abra um Pull Request
-
-📜 Licença
+## 📜 Licença
 
 Este projeto está licenciado sob a Licença MIT - veja o arquivo LICENSE para mais detalhes.
