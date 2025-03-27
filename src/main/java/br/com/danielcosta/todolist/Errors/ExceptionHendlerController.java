@@ -12,6 +12,7 @@ public class ExceptionHendlerController {
     
     //pega a mensagem de erro que foi criada no taskModel e rotorna para o cliente/usuário
     @ExceptionHandler(HttpMessageNotReadableException.class)
+    
     public ResponseEntity<String> handleHttpMessageNotReadableExcption(HttpMessageNotReadableException e){
 
         return ResponseEntity.status(HttpStatus.BAD_REQUEST).body(e.getMostSpecificCause().getMessage());

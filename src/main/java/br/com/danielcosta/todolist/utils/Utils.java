@@ -36,7 +36,7 @@ public class Utils {
             }
         }
 
-        //crian um arry com as informações do emptyNames
+        //cria um arry com as informações do emptyNames
         String[] result = new String[emptyNames.size()];
         return emptyNames.toArray(result);
 
