@@ -22,7 +22,7 @@ Este projeto é uma API REST para gerenciamento de tarefas (To-Do List), desenvo
 
 * API em Produção: [[Adicione o link da API](https://todolist-rocket-phwo.onrender.com)]
 
-* Coleção do Postman: [Adicione o link]
+* Coleção do Postman: [Baixar Coleção Apidog](docs/collection.json)
 
 ## 🛠 Como Rodar o Projeto Localmente
 
