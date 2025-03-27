@@ -4,7 +4,7 @@
 
 Este projeto é uma API REST para gerenciamento de tarefas (To-Do List), desenvolvida com Java e Spring Boot. Inclui funcionalidades de autenticação, validação de dados e persistência com banco de dados H2. O deploy foi realizado utilizando Docker e Render.com.
 
-🚀 Tecnologias Utilizadas
+## 🚀 Tecnologias Utilizadas
 
 * Java 17
 
@@ -20,7 +20,7 @@ Este projeto é uma API REST para gerenciamento de tarefas (To-Do List), desenvo
 
 ## 🌐 Demonstração
 
-* API em Produção: [Adicione o link da API]
+* API em Produção: [[Adicione o link da API](https://todolist-rocket-phwo.onrender.com)]
 
 * Coleção do Postman: [Adicione o link]
 
@@ -28,21 +28,28 @@ Este projeto é uma API REST para gerenciamento de tarefas (To-Do List), desenvo
 
 1. Clone o repositório:
 
-git clone https://github.com/seu-usuario/nome-do-repositorio.git
+  ```
+  git clone githttps://github.com/DevDan99/todolist
+  ```
 
 2. Acesse a pasta do projeto:
 
-cd nome-do-repositorio
+  ```
+  cd nome-do-repositorio
+  ```
 
 3. Instale as dependências:
 
-mvn clean install
+  ```
+  mvn clean install
+  ```
 
 4. Execute o projeto:
+```
+  mvn spring-boot:run
+```
 
-mvn spring-boot:run
-
-5. Acesse a API via http://localhost:8080
+5. Acesse a API via `http://localhost:8080`
 
 ## 🔗 Rotas da API
 
