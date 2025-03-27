@@ -20,9 +20,9 @@ Este projeto é uma API REST para gerenciamento de tarefas (To-Do List), desenvo
 
 ## 🌐 Demonstração
 
-* API em Produção: [[Adicione o link da API](https://todolist-rocket-phwo.onrender.com)]
+* API em Produção: [https://todolist-rocket-phwo.onrender.com](https://todolist-rocket-phwo.onrender.com)
 
-* Coleção do Postman: [Baixar Coleção Apidog](docs/collection.json)
+* Coleção do Postman: [Baixar Coleção Apidog]([/docs/My%20Project.openapi.json])
 
 ## 🛠 Como Rodar o Projeto Localmente
 
@@ -53,15 +53,18 @@ Este projeto é uma API REST para gerenciamento de tarefas (To-Do List), desenvo
 
 ## 🔗 Rotas da API
 
-* POST /auth/login → Autenticação com JWT
+* `POST /user/` → Cria usuário
 
-* GET /tasks → Lista todas as tarefas
+* `POST /auth/login` → Autenticação com JWT
 
-* POST /tasks → Cria uma nova tarefa
+* `POST /tasks` → Cria uma nova tarefa
 
-* PUT /tasks/{id} → Atualiza uma tarefa
+* `GET /tasks` → Lista todas as tarefas
 
-* DELETE /tasks/{id} → Exclui uma tarefa
+* `PUT /tasks/{id}` → Atualiza uma tarefa
+
+## 📸 Imagens
+![Demonstração do Codigo](https://DevDan99/todolist/images/)
 
 ## 📜 Licença
 
